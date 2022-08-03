@@ -1,16 +1,7 @@
 export const fontFamily = {
-  a01: "#bfdfff",
-  a02: "#93c4f5",
-  a03: "#6aaaeb",
-  a04: "#4392e0",
-  a05: "#207bd6",
-  a06: "#0066CC",
-  a07: "#0059b3",
-  a08: "#004d99",
-  a09: "#004080",
-  a10: "#003366",
-  a11: "#00264d",
-  a12: "#001a33",
+  fontSans: "Titillium Web",
+  fontSerif: "Lora",
+  fontMono: "Roboto Mono",
 };
 
 export const fontSize = {
@@ -32,4 +23,20 @@ export const fontWeight = {
   regular: 400,
   semibold: 600,
   bold: 700,
+};
+
+export const lineHeight = {
+  xs: 1,
+  sm: 1.5,
+  md: 2,
+  lg: 2.5,
+  xl: 3,
+  xxl: 3.5,
+};
+
+export const letterSpacing = {
+  tight: "-0.125em",
+  narrow: "-0.0900em",
+  short: "-0.0625em",
+  normal: "0em",
 };
